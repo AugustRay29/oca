@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="voltesvdb">
+  <database-model serializer="dbm" dbms="DERBY" family-id="DERBY" format-version="4.45">
+    <root id="1">
+      <ServerVersion>10.15.2.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="APP">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="NULLID"/>
+    <schema id="4" parent="1" name="SQLJ"/>
+    <schema id="5" parent="1" name="SYS"/>
+    <schema id="6" parent="1" name="SYSCAT"/>
+    <schema id="7" parent="1" name="SYSCS_DIAG"/>
+    <schema id="8" parent="1" name="SYSCS_UTIL"/>
+    <schema id="9" parent="1" name="SYSFUN"/>
+    <schema id="10" parent="1" name="SYSIBM"/>
+    <schema id="11" parent="1" name="SYSPROC"/>
+    <schema id="12" parent="1" name="SYSSTAT"/>
+    <table id="13" parent="2" name="CHOUDENJI_MACHINES"/>
+    <table id="14" parent="2" name="ENEMIES"/>
+    <column id="15" parent="13" name="MACHINE_ID">
+      <DasType>INTEGER|4s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="16" parent="13" name="NAME">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="17" parent="13" name="ROLE">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="18" parent="13" name="PILOT">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="19" parent="13" name="SQL0000000081-36e280fc-0185-8b37-8b64-00000f4f7c90">
+      <ColNames>MACHINE_ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <key id="20" parent="13" name="SQL0000000081-36e280fc-0185-8b37-8b64-00000f4f7c90">
+      <ColNames>MACHINE_ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="21" parent="14" name="ENEMY_ID">
+      <DasType>INTEGER|4s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="22" parent="14" name="NAME">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="23" parent="14" name="STRENGTH">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="24" parent="14" name="WEAKNESS">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="25" parent="14" name="SQL0000000082-c0a0c103-0185-8b37-8b64-00000f4f7c90">
+      <ColNames>ENEMY_ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <key id="26" parent="14" name="SQL0000000082-c0a0c103-0185-8b37-8b64-00000f4f7c90">
+      <ColNames>ENEMY_ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

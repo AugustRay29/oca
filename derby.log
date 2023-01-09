@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Jan 07 23:27:32 PST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0185-8cd8-1e83-00000f4f7c90 
+on database directory D:\Github\AA_2023\oca\voltesvdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886 
+Loaded from file:/C:/Program%20Files/Java/db-derby-10.15.2.0-lib/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=18.0.1.1+2-6
+user.dir=D:\Github\AA_2023\oca
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
